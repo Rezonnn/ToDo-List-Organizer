@@ -6,8 +6,6 @@ A clean **C# .NET 6 console application** that implements a small **todo list ma
 - A simple, menu-driven console UI
 - Basic colored output for a nicer developer experience
 
-This is perfect as a **desktop/console app project** to showcase on GitHub.
-
 ---
 
 ## ✨ Features
@@ -108,24 +106,3 @@ csharp_todo_console_app/
 ├─ Program.cs       # All logic: model, repository, app loop
 └─ TodoConsoleApp.csproj  # .NET project file
 ```
-
-You can freely rename the folder and project for your GitHub repo.
-
----
-
-## 🌟 Talking Points for Your GitHub
-
-This project shows that you can:
-
-- Build a **C# console application** with .NET
-- Implement a simple **domain model** (`TodoItem`)
-- Build a **repository layer** that persists to JSON
-- Use **LINQ** and collections to manipulate in-memory data
-- Design a user-friendly, loop-based CLI
-
-You can extend it later with:
-
-- Editing todo titles
-- Filtering only completed / only active items
-- Due dates and priority levels
-- Exporting todos to CSV
