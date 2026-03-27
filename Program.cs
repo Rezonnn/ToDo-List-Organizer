@@ -12,7 +12,7 @@ namespace TodoConsoleApp
         {
             Console.Title = "C# Todo Console App";
             var repo = new TodoRepository("todos.json");
-            var = new TodoApp(repo);
+            var app = new TodoApp(repo);
             app.Run();
         }
     }
